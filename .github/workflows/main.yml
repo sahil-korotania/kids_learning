@@ -23,5 +23,7 @@ jobs:
            git pull origin main
            pm2 delete "kids learning"
            pm2 start "php -S 0.0.0.0:8000" --name "kids learning" 
+           pm2 start "php -S 0.0.0.0:8001" --name "admin"
+           pm2 restart
            
       
