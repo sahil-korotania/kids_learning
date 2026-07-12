@@ -14,9 +14,9 @@ jobs:
         uses: appleboy/ssh-action@v1.2.0
 
         with:
-          host:
-          username:
-          password:
+          host: ${{secrets.IP}}
+          username: ${{secrets.USERNAME}}
+          password: ${{secrets.PASSWORD}}
 
           script: |
            cd /home/sahil/kids_learning
