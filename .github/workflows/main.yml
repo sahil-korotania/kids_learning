@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout repository
-        uses: actions/checkou@v4
+        uses: actions/checkout@v4
       - name: ssh-connection
         uses: appleboy/ssh-action@v1.2.0
 
