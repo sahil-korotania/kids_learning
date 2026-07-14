@@ -19,7 +19,7 @@ jobs:
           key: ${{secrets.PASSWORD}}
 
           script: |
-           cd /home/sahil/kids_learning
+           cd /home/ubuntu/kids_learning
            git pull origin main
            pm2 delete all
            pm2 start "php -S 0.0.0.0:8001" --name "kids learning"
