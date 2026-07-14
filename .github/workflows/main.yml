@@ -22,9 +22,9 @@ jobs:
            cd /home/sahil/kids_learning
            git pull origin main
            pm2 delete all
-           pm2 start "php -S 0.0.0.0:8000" --name "kids learning"
+           pm2 start "php -S 0.0.0.0:8001" --name "kids learning"
            cd /home/ubuntu/phpMyAdmin-5.2.3-all-languages 
-           pm2 start "php -S 0.0.0.0:8001" --name "php my admin"
+           pm2 start "php -S 0.0.0.0:8002" --name "php my admin"
            pm2 restart all
            
       
