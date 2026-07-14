@@ -16,7 +16,7 @@ jobs:
         with:
           host: ${{secrets.IP}}
           username: ${{secrets.USERNAME}}
-          password: ${{secrets.PASSWORD}}
+          key: ${{secrets.PASSWORD}}
 
           script: |
            cd /home/sahil/kids_learning
