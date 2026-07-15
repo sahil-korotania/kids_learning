@@ -18,7 +18,7 @@ jobs:
           username: ${{secrets.USERNAME}}
           key: ${{secrets.PASSWORD}}
 
-          script: |
+          script: | 
            cd /home/ubuntu/kids_learning
            git pull origin main
            pm2 delete all
